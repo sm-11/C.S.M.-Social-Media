@@ -1,0 +1,171 @@
+
+.btns {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  margin: 20px;
+  padding: 4px;
+  border: none;
+  color: #219ebc;
+  transition: 0.5s;
+}
+
+#closeBtn {
+  display: none;
+  background-color: #111;
+  border: none;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#openBtn {
+  position: fixed;
+  font-size: 30px;
+  position: fixed;
+  font-family: Trebuchet MS;
+}
+
+.userInputs {
+  position: fixed;
+  font-size: 25px;
+  cursor: pointer;
+  height: 100%;
+  width: 25%;
+  margin: auto;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 70px;
+  border: 2px solid #219ebc;
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+}
+
+.userInputs a {
+  padding: 0px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+  margin: 40px;
+}
+
+.userInputs a:hover {
+  color: #f1f1f1;
+}
+
+#closeBtn:hover {
+  cursor: pointer;
+  color: #f1f1f1;
+}
+
+#openBtn:hover {
+  cursor: pointer;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+.search-container {
+  margin-left: 400px;
+  margin-top: 80px; 
+}
+
+#search_box {
+  font-size: 17px;
+  border: 2px #219ebc solid;
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: 20px;
+  width: 600px;
+  height: 30px;
+  cursor: pointer;
+}
+
+#search_btn {
+  margin-left: 20px;
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+  border: 2px solid;
+  background-color: #219ebc;
+  border-radius: 20px;
+  font-weight: bold; 
+  font-family: Trebuchet MS;
+}
+
+#search_btn:hover, #newPost_btn:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+#newPost_btn {
+  position: fixed;
+  margin-left: 100px;
+  height: 40px;
+  width: 150px;
+  font-size: 15px;
+  border: 2px solid; 
+  background-color: #219ebc;
+  font-weight: bold; 
+  font-family: Trebuchet MS;
+}
+
+.post_content {
+  background-color: lightgrey;
+  border: 5px solid;
+  border-radius: 10px;
+  margin: auto;
+  border-spacing: 20px;
+  height: 400px;
+  width: 50%;
+  margin-top: 70px;
+}
+
+#post_title {
+  background-color: lightgrey;
+  border-radius: 10px;
+  width: 100%;
+  height: 15%;
+  margin: auto;
+  font-size: 20px;
+}
+
+#post_txt {
+  background-color: lightblue;
+  width: 100%;
+  height: 70%;
+  margin: auto;
+  font-size: 15px;
+}
+
+#post_rxn {
+  background-color: lightgrey;
+  border-radius: 10px;
+  width: 100%;
+  height: 15%;
+  margin: auto;
+  font-size: 30px;
+}
+
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+  margin-left: 15px;
+  margin-top: 15px;
+  border: none;
+  background-color: lightgrey;
+}
+
+.fa:hover {
+  color: #f1f1f1;
+  cursor: pointer;
+}
